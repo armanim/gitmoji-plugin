@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'io.github.biezhi'
-version '1.0'
+version '1.0.2'
 
 repositories {
     mavenCentral()
@@ -21,6 +21,10 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+      <p>
+            <ul>
+                <li>Use unicode emoji</li>
+                <li>Get git emoji data directly from <a href="https://github.com/carloscuesta/gitmoji">Gitmoji</a> repository</li>
+            </ul>
+        </p>"""
 }
