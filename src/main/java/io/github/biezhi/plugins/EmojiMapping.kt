@@ -24,7 +24,7 @@ class EmojiMapping {
     companion object {
         val DATA_ADDRESSES = arrayOf(
             "https://raw.githubusercontent.com/carloscuesta/gitmoji/master/src/data/gitmojis.json",
-            "https://raw.githubusercontent.com/biezhi/gitmoji/master/src/data/gitmojis.json"
+            "https://raw.githubusercontent.com/BrikerMan/gitmoji-cn/master/src/data/gitmojis.json"
         )
     }
 
