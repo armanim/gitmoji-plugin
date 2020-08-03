@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'io.github.biezhi'
-version '1.0.3'
+version '1.0.4'
 
 repositories {
     mavenCentral()
@@ -17,14 +17,22 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2020.1'
+    version '2020.2'
 }
 patchPluginXml {
     changeNotes """
       <p>
+            <b>1.0.4</b>
+            <ul>
+                <li>Support for 2020.2</li>
+            </ul>
+      </p>
+      <p>
+            <b>1.0.3</b>
             <ul>
                 <li>Use unicode emoji</li>
                 <li>Get git emoji data directly from <a href="https://github.com/carloscuesta/gitmoji">Gitmoji</a> repository</li>
             </ul>
-        </p>"""
+      </p>
+    """
 }
