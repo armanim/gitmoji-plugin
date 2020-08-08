@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'io.github.biezhi'
-version '1.0.4'
+version '1.0.5'
 
 repositories {
     mavenCentral()
@@ -17,10 +17,17 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2020.2'
+    version '2019.2'
+    updateSinceUntilBuild false
 }
 patchPluginXml {
     changeNotes """
+      <p>
+            <b>1.0.5</b>
+            <ul>
+                <li>Support since 2019.2</li>
+            </ul>
+      </p>
       <p>
             <b>1.0.4</b>
             <ul>
